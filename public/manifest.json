@@ -1,0 +1,43 @@
+{
+  "name": "Community Health Platform",
+  "short_name": "HealthCare+",
+  "description": "Join our mission to create healthier communities through blood donation, hygiene awareness, and environmental cleanliness initiatives.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0f172a",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["health", "medical", "social"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Blood Donation",
+      "short_name": "Donate",
+      "url": "/#blood-donation"
+    },
+    {
+      "name": "Emergency SOS",
+      "short_name": "Emergency",
+      "url": "/emergency"
+    },
+    {
+      "name": "Blood Bank",
+      "short_name": "Blood Bank",
+      "url": "/blood-bank"
+    }
+  ]
+}
